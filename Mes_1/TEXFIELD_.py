@@ -10,6 +10,7 @@ def main(page: ft.Page):
     def mostrar_texto(e):
         texto.value = campo_texto.value
         campo_texto.value = ""
+        #page.update()
 
     campo_texto = ft.TextField(
         label="Escriba aquí",
