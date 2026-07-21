@@ -5,6 +5,7 @@ from rich import color
 
 
 def main(page: ft.Page):
+
     page.title = "Trabajando con TextField"
 
     def mostrar_texto(e):
