@@ -33,9 +33,23 @@ def main(page: ft.Page):
                 padding=10
                 ),
 
-            ft.Container(bgcolor=ft.Colors.BLUE_500, width=200, height=100,content=ft.Text("CONTAINER 3",weight=ft.FontWeight.BOLD,),border_radius=15,alignment=ft.Alignment.TOP_CENTER,padding=10),
-            ft.Container(bgcolor=ft.Colors.BROWN_400,width=200,height=100,content=ft.Text("CONTAINER 4",weight=ft.FontWeight.BOLD,),border_radius=15,alignment=ft.Alignment.TOP_CENTER,padding=10)
-        ],
+            ft.Container(
+                bgcolor=ft.Colors.BLUE_500, 
+                width=200, height=100,
+                content=ft.Text("CONTAINER 3",
+                                weight=ft.FontWeight.BOLD,),
+                                border_radius=15,
+                                alignment=ft.Alignment.TOP_CENTER,
+                                padding=10),
+            ft.Container(
+                bgcolor=ft.Colors.BROWN_400,
+                width=200,
+                height=100,content=ft.Text("CONTAINER 4",
+                                weight=ft.FontWeight.BOLD,),
+                                border_radius=15,
+                                alignment=ft.Alignment.TOP_CENTER,
+                                padding=10)
+],
         spacing=15,
         alignment=ft.MainAxisAlignment.CENTER,
     )
@@ -43,9 +57,35 @@ def main(page: ft.Page):
     #creat column with containers and text widgets
     column = ft.Column(
         controls=[
-            ft.Container(bgcolor=ft.Colors.BLUE_300,width=400,height=100,border_radius=15,content=ft.Text("CONTAINER 1",weight=ft.FontWeight.BOLD,),alignment=ft.Alignment.CENTER,padding=10),
-            ft.Container(bgcolor=ft.Colors.BROWN_400,width=400,height=100,border_radius=15,content=ft.Text("CONTAINER 2",weight=ft.FontWeight.BOLD,),alignment=ft.Alignment.CENTER,padding=10),
-            ft.Container(bgcolor=ft.Colors.GREEN_300,width=400,height=100,border_radius=15,content=ft.Text("CONTAINER 3",weight=ft.FontWeight.BOLD,),alignment=ft.Alignment.CENTER,padding=10),
+            ft.Container(
+                bgcolor=ft.Colors.BLUE_300,
+                width=400,height=100,
+                border_radius=15,
+                content=ft.Text(
+                    "CONTAINER 1",
+                    weight=ft.FontWeight.BOLD,)
+                    ,alignment=ft.Alignment.CENTER,
+                    padding=10),
+            ft.Container(
+                bgcolor=ft.Colors.BROWN_400,
+                width=400,
+                height=100,
+                border_radius=15,
+                content=ft.Text(
+                    "CONTAINER 2",
+                    weight=ft.FontWeight.BOLD,)
+                    ,alignment=ft.Alignment.CENTER,
+                    padding=10),
+            ft.Container(
+                bgcolor=ft.Colors.GREEN_300,
+                width=400,
+                height=100,
+                border_radius=15,
+                content=ft.Text(
+                    "CONTAINER 3",
+                    weight=ft.FontWeight.BOLD,),
+                    alignment=ft.Alignment.CENTER,
+                    padding=10),
         ],
         spacing=15,
         alignment=ft.MainAxisAlignment.CENTER
