@@ -5,7 +5,7 @@ def main(page:ft.Page):
     page.padding = 20
 
     stack = ft.Stack(
-        width=150,
+        width=300,
         height= 200,
         controls=[
 

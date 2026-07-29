@@ -30,13 +30,10 @@ def main(page: ft.Page):
             spread_radius=10,
             blur_radius=20,
             color=ft.Colors.with_opacity(0.5,ft.Colors.RED)
-            ),
-                  
-
+            ),             
     )
 
     page.add(box)
-
 
 
 ft.run(main)
