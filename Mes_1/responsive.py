@@ -48,7 +48,7 @@ def main2(page: ft.Page):
     page.add(
         ft.Row(
             controls=[
-                ft.Container(bgcolor=ft.Colors.BLUE, width=100, height=100),
+                ft.Container(bgcolor=ft.Colors.BLUE, width=500, height=100),
                 ft.Container(bgcolor=ft.Colors.RED, width=100, height=100),
                 ft.Container(bgcolor=ft.Colors.GREEN, width=100, height=100),
             ],
