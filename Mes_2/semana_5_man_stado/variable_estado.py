@@ -15,10 +15,11 @@ def main(page:ft.Page):
         nonlocal contador            # necesario para modificar la variable externa
         contador += 1                #incrementamos la cuenta
         texto.value = str(contador)  # cambiamos el el valor del texto
-        page.update()                #sin esto la pagina no cambia
+        
+        page.update()                #sin esto la pagina no cambia (redibuja toda la página)
 
     page.add(
         texto,
-        ft.Button("Incrementar",on_click=incrementar,elevation=30)
+        ft.Button("Incrementar",on_click=incrementar)
     )
 ft.run(main)
