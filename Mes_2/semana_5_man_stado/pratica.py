@@ -1,5 +1,5 @@
 #contador con múltiples botones que comparten estado
-
+#vesion de flet  0.86.1
 """
 Ahora el caso interesante: varios botones (sumar, restar, x2, reset)
  que todos modifican el mismo estado compartido
