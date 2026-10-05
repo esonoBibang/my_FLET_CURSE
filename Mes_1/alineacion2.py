@@ -7,16 +7,18 @@ def main(page:ft.Page):
     page.padding = 20
     page.title = "aligment on container"
 
+    contenedor =  ft.Container(
+                content=ft.Text("Container"),
+                padding=10,
+                bgcolor=ft.Colors.with_opacity(0.3,ft.Colors.BLUE_300),
+                width=300,
+                height=300,
+                alignment=ft.Alignment.BOTTOM_LEFT,
+                border_radius=15
+            )
+
     page.add(
-        ft.Container(
-            content=ft.Text("Container"),
-            padding=10,
-            bgcolor=ft.Colors.with_opacity(0.3,ft.Colors.BLUE_300),
-            width=300,
-            height=300,
-            alignment=ft.Alignment.BOTTOM_LEFT,
-            border_radius=15
-        )
+       contenedor
     )
 
 ft.run(main)
